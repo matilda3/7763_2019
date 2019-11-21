@@ -13,7 +13,8 @@ public class Simple_Compressor {
 
     Compressor instance_compressor = new Compressor(compressorInitialization);
 
-    // Simple on / off queries
+    // Simple on / off functions - turn closed loop control on/off
+    
     void switchOn() { 
         this.instance_compressor.setClosedLoopControl(true);
     }
