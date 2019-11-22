@@ -36,8 +36,8 @@ public class Robot extends SampleRobot {
 
   private final Joystick m_stick = new Joystick(0);
   private final SendableChooser<String> m_chooser = new SendableChooser<>();
-  private final Simple_Compressor test_compressor = new Simple_Compressor(0);
-  private final Double_Solenoid test_solenoid = new Double_Solenoid(1, 2);
+  private final CompressorController test_compressor = new CompressorController(0);
+  private final DoubleSolenoidController test_solenoid = new DoubleSolenoidController(1, 2);
 
   public Robot() {
   }
